@@ -1,0 +1,149 @@
+C:\Users\lenovo\Anaconda3\python.exe D:/常用/易观比赛数据/Demo/train_02.py
+[LightGBM] [Warning] Find whitespaces in feature_names, replace with underlines
+2.6937995935417347
+                                   feature  importance
+0    1896072db9ce6406febfc17f681c2086_time        2143	     特征的意义：appid_time:这个设备上这个app的总使用时间，如果没有安装这个app则为0，我取了所有deviceid的所有打开次数最多的前40名app，没有去掉前几名
+1                                  b_v_num        1780		品牌+型号，直接按照给的原始数据编号的
+2    07e967d75aab2f6a52c558695a572a7c_time        1685
+3                          avg_uesd_perday        1632		平均每天使用时间
+4                                totaltime        1599		总使用时间
+5                                mu_offset        1331		这个设备id的打开行为的24小时时间分布的期望相对于总体人群的偏移
+6                                brand_num        1250		对品牌做一个调查处理，做的每一个品牌的大中小系列
+7                                favor_app        1205		使用时间最长的app的id
+8                                  numapps        1123		安装的app个数
+9                             mu_offset_cl        1116		这个设备id的关闭行为(_cl就表示关闭)的24小时时间分布的期望相对于总体人群的偏移
+10                                    kurt        1039		这个设备id的打开行为的24小时时间分布的峰度系数
+11                                 kurt_cl        1003
+12   4b58ecb20fe0d5e7a823b7d95911166d_time        1003
+13                                st_open6         990		st_openX，在每天X点钟打开的次数
+14                               st_open23         984
+15   b6bcc9662526fb3fdcac16c577e49813_time         921
+16                                    skew         880		这个设备id的打开行为的24小时时间分布的偏度系数
+17                               st_open22         879
+18   1cd8e0a97bf3552196f0f60eb3566ac7_time         857
+19                                 skew_cl         850
+20   039be717f253f7b10ed1ce405de08b9f_time         825
+21                               st_open19         824
+22                                st_open5         801
+23                                st_open8         788
+24                               st_open20         774
+25   2338f5519ae89cb819360870c849ac62_time         766
+26                               st_open21         756
+27   4dee8fb18b5af024c012c77d21983f89_time         722
+28                               st_open10         704
+29                               st_open13         703
+30                               st_open17         702
+31                               st_open12         688
+32                                st_open9         688
+33                                st_open0         685
+34                               st_open15         682
+35   90cb852cf345e04d508fe03f74089183_time         675
+36   e29eb7083bdf54af48352ffa979fc830_time         672
+37   3570fa5e14faf9b3126b9deea90c21d5_time         638
+38   ecf4f0ab94f5a4083ef581584c82debd_time         638
+39   4c0931dd33d2f7e088955a929c8da9d9_time         622
+40                               st_open14         620
+41   b82ae67fe7545960b386ae50e3be37a2_time         612
+42   43afea5a44582df0b76771e2892029fe_time         610
+43                                st_open7         609
+44                          st_freq dinner         608		按照时间段对打开关闭的次数做统计，dinner:18点
+45   e481bb827fe08b4d4335225f6f125bde_time         606
+46                               st_open16         595
+47                               st_open11         581
+48                       st_freq breakfast         577		breakfast:5点到7点
+49                                 rush_60         575		rush_X:对设备id的所有打开行为的时间，打开行为集中在相同的60秒之内的次数
+50   6a283d0a1b1b98eb16f8941c2804aa1f_time         573
+51                                 rush_30         572
+52   8c8544b6c129ad4a431be753143ed1c3_time         572
+53   97d0422a3317b1929926dc90cda4fc53_time         571
+54                                   sigma         546		这个设备id的打开行为的24小时时间分布的标准差
+55   58e96a6325c839e07269513fc9ba9811_time         534
+56   8d2448133beb3422f0f638bacf8f7051_time         530
+57   e4fb97b00004709730e13c588d457350_time         523
+58   9e9ff523f0448879c6cd521495fd758d_time         521
+59                         st_freq nosleep         515		nosleep:0点到4点
+60                         cl_freq nosleep         508
+61   200cf557b3703944f1f68af08484d2bd_time         498
+62                                st_open1         494
+63                          cl_freq dinner         484
+64                           st_freq night         476		night:19点到23点
+65                               opentimes         468		总打开次数
+66   6d0125a3f13a454c98b9841e4ef96b1a_time         467
+67                       cl_freq breakfast         462
+68   ad96c9503da1f8ef626838d75e69fb26_time         462
+69                           st_freq lunch         457		lunch:12点到13点
+70   86f9f299cdbc8e2a19fed1712f522c49_time         450
+71   d977dd0e10adc6311525d4351fbf9c84_time         447
+72                              st_freq AM         442		AM:8点到11点
+73                                st_open2         422
+74   02bce1b62f5f5626621faa3cf7425529_time         416
+75                                st_open4         407
+76   79eeda5f4c7fd2a0d483dc3d46fa5b3b_time         404
+77                                sigma_cl         396
+78                              st_freq PM         387		PM:14点到17点
+79   0b0816ff97e9a3e5501ed2dcb4a0d66e_time         380
+80                                st_open3         371
+81   37de3dfb9d3bc0a2264adf8802fef726_time         346
+82                           cl_freq lunch         345
+83                              cl_freq AM         338
+84   0995e7526bf406557d1e55c9f650a2b5_time         337
+85   9c1028bb28d1e14b22a05bd6531c3ea9_time         323
+86                           cl_freq night         313
+87                              cl_freq PM         300
+88   fc88cfe07a933a0c8624437cc174669d_time         251
+89                                  rush_1         237
+90                                  has_33         223		has_X:有没有安装X这个大类别的app，编号之后的33是移动购物
+91   793037657df0b898fc5202b167272370_time         209
+92                                   b_num         205		品牌，直接按照给的原始数据编号的
+93                           f_label_small         200		使用时间最长的app的大类别
+94   6509b19bd37433de13cba04063f879ed_time         198
+95                             f_label_big         190		使用时间最长的app的大类别
+96   91920559406bf05062e3d94c862d5817_time         165
+97                                  has_21         157
+98   f5cbf990604deb427ac48510d86f33e8_time         152
+99                                   has_4         137
+100                                 has_36         135
+101                                 has_43         122
+102  616120feb399049e89585756e0cfc4d1_time         118
+103                                 has_22         111
+104                                  has_2          97
+105                                 has_19          95
+106                                 has_38          90
+107                                 has_11          76
+108                                 has_31          73
+109                                  has_1          69
+110                                 has_34          68
+111                                 has_17          64
+112                                 has_28          63
+113                                  has_7          59
+114                                 has_35          56
+115                                 has_32          52
+116                                 has_26          49
+117                                  has_3          43
+118                                 has_15          41
+119                                 has_10          40
+120                                 has_40          40
+121                                  has_5          34
+122                                 has_14          32
+123                                 has_44          31
+124                                 has_29          31
+125                                 has_42          30
+126                                 has_41          30
+127                                  has_8          28
+128                                 has_30          28
+129                                 has_12          27
+130                                 has_13          24
+131                                 has_16          23
+132                                 has_27          19
+133                                 has_18          19
+134                                 has_23          17
+135                                 has_39          16
+136                                  has_0          13
+137                                  has_9           9
+138                                 has_24           9
+139                                 has_25           8
+140                                 has_37           6
+141                                  has_6           6
+142                                 has_20           2
+
+Process finished with exit code 0

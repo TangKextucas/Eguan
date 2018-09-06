@@ -1,0 +1,151 @@
+
+deviceid_package_start_close
+(36720940, 4)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 36720940 entries, 0 to 36720939
+Data columns (total 4 columns):
+0    object
+1    object
+2    int64
+3    int64
+dtypes: int64(2), object(2)
+memory usage: 1.1+ GB
+None
+
+
+deviceid_brand
+(72554, 3)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 72554 entries, 0 to 72553
+Data columns (total 3 columns):
+0    72554 non-null object
+1    72554 non-null object
+2    72554 non-null object
+dtypes: object(3)
+memory usage: 1.7+ MB
+None
+
+
+deviceid_packages
+(72727, 2)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 72727 entries, 0 to 72726
+Data columns (total 2 columns):
+0    72727 non-null object
+1    72727 non-null object
+dtypes: object(2)
+memory usage: 1.1+ MB
+None
+
+
+deviceid_test
+(22727, 1)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 22727 entries, 0 to 22726
+Data columns (total 1 columns):
+0    22727 non-null object
+dtypes: object(1)
+memory usage: 177.6+ KB
+None
+
+
+deviceid_train
+(50000, 3)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 50000 entries, 0 to 49999
+Data columns (total 3 columns):
+0    50000 non-null object
+1    50000 non-null int64
+2    50000 non-null int64
+dtypes: int64(2), object(1)
+memory usage: 1.1+ MB
+None
+
+
+package_label
+(10368, 3)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10368 entries, 0 to 10367
+Data columns (total 3 columns):
+0    10368 non-null object
+1    10368 non-null object
+2    10368 non-null object
+dtypes: object(3)
+memory usage: 243.1+ KB
+None
+
+
+
+deviceid_package_start_close
+                                  0                                 1  \
+0  e0450666692b72a1f580dfa082e8b2ae  1896072db9ce6406febfc17f681c2086   
+1  e0450666692b72a1f580dfa082e8b2ae  1896072db9ce6406febfc17f681c2086   
+2  e0450666692b72a1f580dfa082e8b2ae  1896072db9ce6406febfc17f681c2086   
+3  e0450666692b72a1f580dfa082e8b2ae  1896072db9ce6406febfc17f681c2086   
+4  e0450666692b72a1f580dfa082e8b2ae  1896072db9ce6406febfc17f681c2086   
+
+               2              3  
+0  1489025123086  1489025133100  
+1  1489025393513  1489025398515  
+2  1489025463551  1489026583522  
+3  1489034464940  1489034484924  
+4  1489050176275  1489050201276  
+
+
+deviceid_brand
+                                  0        1          2
+0  f69cdc2f5018aa6d3d6500976b926c09  samsung   GT-N7100
+1  522690089a93278b65025127d937e9bb  samsung  GT-I9507V
+2  dcf13c9ec255153bfa909dc3c64908c3     Sony       L39u
+3  58b5f0ec136407caf3708a4b05c1894f     Sony       L39u
+4  dbca7cb790645b18383f4536e7f1f303     Sony      XM50h
+
+
+deviceid_packages
+                                  0  \
+0  00009270c4ec26e1d76f5d86847009c9   
+1  000189ef5d5b951841d416a8c6c5b995   
+2  00026d79a6f0955fc860947724e24765   
+3  0002e3afb8146bc08e40575e45f0eca6   
+4  0004709a296f9b925ae283efe2f043e7   
+
+                                                   1  
+0  1896072db9ce6406febfc17f681c2086,90cb852cf345e...  
+1  1896072db9ce6406febfc17f681c2086,97d0422a3317b...  
+2                   c33b35d6254ad9c0c238233eb97a6c60  
+3  1896072db9ce6406febfc17f681c2086,07e967d75aab2...  
+4  4538778ad75aa8ce61c9d13fb9cb661b,86f9f299cdbc8...  
+
+
+deviceid_test
+                                  0
+0  2e95e7361f04b5c5c0662e1dcb6fbc65
+1  42013074fa7d8d11768e6d3c3e58df56
+2  9cc488a211a7c355f99c52ed42e34cb1
+3  29dea7b5d58e1e2fe1400a69c5ac33f5
+4  365c63569569d88ed44b347fd7c308bd
+
+
+deviceid_train
+                                  0  1  2
+0  bd86d59afa24a839ce6029d718accb19  1  3
+1  e7d158c9a8262a35c9cc630a15a9103e  1  5
+2  97abdc3828448b5acc7428dd307bc635  2  5
+3  e4dbdbf07c9cff03d79f4872e65742b4  1  4
+4  6bd4537b2970c5c6ab765c1860b88aa5  1  3
+
+
+package_label
+                                  0     1       2
+0  8c4ac9e7f1d13362a7a443d9fe385d48  实用工具    日历应用
+1  991a8d9248a0b224c8cdc6feda5c70a9    视频    网络电视
+2  b255f4de409d3f905b8432e6564cd243  母婴亲子  孕育工具助手
+3  215263e647821ceb627c55a27475871a    金融    投资理财
+4  92b700e7f608dbfe4247809dc6e6dfd0    其它      其它
+
+
+
+
+
+
+
